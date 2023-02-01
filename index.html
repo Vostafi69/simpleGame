@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animation.min.css">
+    <title>FindTheNumberGame</title>
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+      </div>
+    <div class="wrap">
+
+        <!-- Nav -->
+
+        <nav class="nav-container">
+            <ul class="nav-list">
+                <li class="nav-list__item">Играть<a href="index.html" class="active">Играть</a></li>
+                <li class="nav-list__item">Правила<a href="rules.html">Правила</a></li>
+                <!-- <li class="nav-list__item">Автор<a href="#">Автор</a></li> -->
+            </ul>
+        </nav>
+        
+        <!-- /Nav -->
+
+        <!-- game -->
+
+        <div class="main-container m-center">
+            <div class="game game_block">
+                <div class="game-status-alert alert-animation">
+                    <div class="alert__text">
+                        <p class="text__item-1">Найди число</p>
+                        <p class="text__item-2">GAME</p>
+                    </div>
+                </div>
+            </div>
+            <div class="time">
+                <div class="time-container__reast">
+                    <div class="time__rest">Время: 0 сек.</div>
+                    <button class="start-game-btn"><div class="btn-grad"></div><span>Начать игру</span></button>
+                </div>
+            </div>
+            <div class="records">
+                <div class="h-group">
+                    <h1>Рекорды</h1>
+                </div>
+                <ul class="records-list">
+                    <!-- <li class="records-list__item"><span>Время:</span><span>35 сек.</span></li>
+                    <li class="records-list__item"><span>Время:</span><span>51 сек.</span></li> -->
+                </ul>
+                <button class="records-btn"><div class="records-btn__grad"></div><span>Сбросить</span></button>
+            </div> 
+        </div>
+
+        <!-- /Game -->
+
+        <!-- Decor -->
+
+        <div class="decor-container center-top">
+            <div class="back-decoration-wrap">
+                <div class="back-decoration back-decoration__item-2"></div>
+                <div class="back-decoration back-decoration__item-1"></div>
+            </div>
+        </div>
+        <div class="decor-container right-bottom">
+            <div class="back-decoration-wrap">
+                <div class="back-decoration back-decoration__item-2"></div>
+                <div class="back-decoration back-decoration__item-1"></div>
+            </div>
+        </div>
+        <div class="decor-container left-bottom">
+            <div class="back-decoration-wrap">
+                <div class="back-decoration back-decoration__item-2"></div>
+                <div class="back-decoration back-decoration__item-1"></div>
+            </div>
+        </div>
+        <div class="decor-container right-top">
+            <div class="back-decoration-wrap">
+                <div class="back-decoration back-decoration__item-2"></div>
+                <div class="back-decoration back-decoration__item-1"></div>
+            </div>
+        </div>
+
+        <!-- /Decor -->
+
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
