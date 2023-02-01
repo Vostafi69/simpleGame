@@ -1,0 +1,2 @@
+@keyframes scaleUpAndDown{0%{transform:scale(0)}50%{transform:scale(1.2)}100%{transform:scale(1)}}@keyframes lightWave{0%,100%{box-shadow:0 0 15px 5px #7670ed}65%{box-shadow:0 0 15px 5px #e7a9ff}35%{box-shadow:0 0 15px 5px #57bdfd}}@keyframes preloader-rotate{100%{transform:rotate(360deg)}}@keyframes preloader-bounce{0%,100%{transform:scale(0)}50%{transform:scale(1)}}.loaded_hiding .preloader{transition:opacity .3s;opacity:0}.loaded .preloader{display:none}
+/*# sourceMappingURL=animation.min.css.map */
